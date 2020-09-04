@@ -5,8 +5,8 @@ end
 def loop_message_n_times
 end 
 
-def out_array
-  
+def out_array(quote)
+  quote = ["All great achievements", "require time", "- Maya Angelou"] 
 end 
 
 def return_sting_array
