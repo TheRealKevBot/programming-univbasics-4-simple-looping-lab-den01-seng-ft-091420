@@ -7,14 +7,20 @@ def loop_message_five_times(message)
   end
 end 
 
-def loop_message_n_times(message)
+def loop_message_n_times(message, limit)
   count = 0 
   while count < limit do 
-    puts "Hello Red Baloon."
+    puts "Hello Red Balloon."
+    count += 1 
+  end
 end 
 
 def out_array(quote)
-  quote = ["All great achievements", "require time", "- Maya Angelou"] 
+  count = 0 
+  while count < quote.length do 
+    puts array[count]
+    count += 1 
+  end
 end 
 
 def return_sting_array
