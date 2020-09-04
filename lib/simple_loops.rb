@@ -1,8 +1,11 @@
 # Write your methods here
-def loop_message_five_times 
+def loop_message_five_times(message)
+  count = 0 
+  while count < message
+  puts "Hello World."
 end 
 
-def loop_message_n_times
+def loop_message_n_times(message)
 end 
 
 def out_array(quote)
