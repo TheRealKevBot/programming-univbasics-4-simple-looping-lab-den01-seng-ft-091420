@@ -23,6 +23,11 @@ def output_array(array)
   end
 end 
 
-def return_sting_array
+def return_sting_array(array)
+  count = 0 
+  while count < array.length do 
+    array[count].to_s 
+    count += 1 
+  end
 end 
 
