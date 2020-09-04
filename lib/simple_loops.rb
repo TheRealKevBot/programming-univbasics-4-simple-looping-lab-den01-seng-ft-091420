@@ -8,6 +8,9 @@ def loop_message_five_times(message)
 end 
 
 def loop_message_n_times(message)
+  count = 0 
+  while count < limit do 
+    puts ""
 end 
 
 def out_array(quote)
