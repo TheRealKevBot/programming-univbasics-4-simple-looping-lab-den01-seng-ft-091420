@@ -10,7 +10,7 @@ end
 def loop_message_n_times(message)
   count = 0 
   while count < limit do 
-    puts ""
+    puts "Hello Red Baloon."
 end 
 
 def out_array(quote)
